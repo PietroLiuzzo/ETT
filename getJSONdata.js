@@ -29,7 +29,7 @@ console.log(data);
 };
   
   $( "<div/>", {
-    "class": "dataoutput",
+    "class": "row",
     html: items.join( "" )
   }).appendTo( "#JSON" );
   
