@@ -1,12 +1,28 @@
 // for all tagged ETT  https://hypothes.is/api/search?tag=ETT
 // example below for one annotation
+$(document).on('ready', function () {
+/*var selectValues = {}
+$.each(selectValues, function(key, value) {   
+     $('#input')
+         .append($("<option></option>")
+                    .attr("value",key)
+                    .text(value)); 
+});*/
+$('#input').on('change', function () {
 
-$.getJSON( "https://hypothes.is/api/search?tag=ETT", function( data ) {
+
+$('#JSON').empty();
+ var input = this.value
+var url = "https://hypothes.is/api/search?tag=" + input
+$.getJSON( url, function( data ) {
 console.log(data);
   var items = [];
        for (var i = 0; i < data.rows.length; i++) {
        var ann = data.rows[i]
-      items.push( "<div id='" + ann.id + "' class='card'><ul><li>" + ann.created +"</li><li>"  + ann.document.title +"</li><li>" + ann.links.html + "</li></ul></div>" );
+       var text = "";
+       if('selector' in ann.target){text += ann.target["0"].selector[3].exact} else {text += ann.target.source};
+       
+      items.push( "<div id='" + ann.id + "' class='card'><div class='col-md-3'>" + ann.text +"</div><div class='col-md-3'>"  + ann.document.title +"</div><div class='col-md-3'>"  + ann.uri +"</div><div class='col-md-3'>" + ann.links.html + "</div></div>" );
 };
   
   $( "<div/>", {
@@ -14,8 +30,7 @@ console.log(data);
     html: items.join( "" )
   }).appendTo( "#JSON" );
   
- /* require(["underscore"], function (d){
-  var groupedData = _.groupBy(data, rows.tags[1]);
-  console.log(groupedData);
-});*/
+
+});
+});
 });
