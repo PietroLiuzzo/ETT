@@ -20,7 +20,7 @@
             <style type="text/css">
     #mynetwork {
       width: 100%;
-      height: 400px;
+      height: 600px;
       border: 1px solid lightgray;
     }
   </style>
@@ -57,6 +57,9 @@
                             <a class="page-scroll" href="#ontology">Ontology</a>
                             
                         </li>
+                        <li>
+                            <a class="page-scroll" href="#guidelines">guidelines</a>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -70,7 +73,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1>Intro</h1>
-                        <p>This is a page to display contents and output of the workshop in Odense University 16-18 February 2017 for the project <a href="http://emotions.shca.ed.ac.uk/">Emotions Through Time: From Antiquity to Byzantium</a>.</p>
+                        <p class="lead">This is a page to display contents and output of the workshop in Odense University 16-18 February 2017 for the project <a href="http://emotions.shca.ed.ac.uk/">Emotions Through Time: From Antiquity to Byzantium</a>.</p>
                         <div class="container">
                             <h2>Programm</h2>
                             <h3>Giovedì 16 febbraio 2017</h3>
@@ -110,11 +113,18 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1>About</h1>
-                        <p>This page displays with Feedwind a RSS feed from Hypothes.is annotations and a timeline showing the same data from a public google spreadsheet.</p>
+                        <p>This page displays:</p>
+                            <ul>
+                                <li>with Feedwind a RSS feed from Hypothes.is annotations</li>
+                                <li>a timeline showing the same data from a public google spreadsheet.</li>
+                                <li>two ways to exploit data from the Hypothes.is api for basic visualization, a selector and a graph</li>
+                                <li>simple guidelines to annotate</li>
+                                <li>a draft reference ontology to organize the annotation and reuse them meaningfully.</li>
+                            </ul> 
+                        <p>This should demonstrate how powerfull is the potential of using this very intuitive tool to annotate online data.</p>
                         <p>The annotations can be downloaded and used to populate a database with existing tools as this <a href="http://jonudell.net/h/facet.html">http://jonudell.net/h/facet.html</a> although the open access annotations in hypothes.is are already much more reusable via api, rss, and other services they provide.</p>
                         <p>These are simply examples of simple workflow results/visualizations of annotations on online data with Hypothesis.<a class="btn btn-default page-scroll" href="#examples">Go to the examples.</a></p>
                         <p>The annotations should follow a meaningfull structure for display and analysis of the data produced.<a class="btn btn-default page-scroll" href="#ontology">Go to the ontology.</a></p>
-                        
                         <p>It would be nice to have a real user needs based visualization at the end of the workshop, based on the text on which we will work, like a graph or a map.</p>
                     </div>
                 </div>
@@ -127,7 +137,9 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1>Examples</h1>
-                       <div class="container"> <!-- start feedwind code --> 
+                        <p class="lead">A simple feed of all annotation with the tag ETT.</p>
+                        
+                        <div class="container"> <!-- start feedwind code --> 
                         <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="9791/"></script> 
                         <!-- end feedwind code -->
                        </div> <a class="btn btn-default page-scroll" href="#ontology">Click Me to Scroll Down!</a>
@@ -140,8 +152,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1>Timelin</h1>
-                        <p>This timeline from Knight Lab TimelineJS uses data entered in <a href="https://docs.google.com/spreadsheets/d/1NKzbo2nC3RybAVVNTpBQIOGZYJYZBs0TzUX5MIQIYpw/edit#gid=0">this public google spreadsheet.</a> The same visualization tool <a href="https://timeline.knightlab.com/docs/json-format.html">can also be fed dynamically generated data.</a></p>
+                        <h1>Timeline</h1>
+                        <p class="lead">This timeline from Knight Lab TimelineJS uses data entered in <a href="https://docs.google.com/spreadsheets/d/1NKzbo2nC3RybAVVNTpBQIOGZYJYZBs0TzUX5MIQIYpw/edit#gid=0">this public google spreadsheet.</a> The same visualization tool <a href="https://timeline.knightlab.com/docs/json-format.html">can also be fed dynamically generated data.</a></p>
                         <div class="container"><iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1NKzbo2nC3RybAVVNTpBQIOGZYJYZBs0TzUX5MIQIYpw&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
                         </div>
                         <a class="btn btn-default page-scroll" href="#ontology">Click Me to Scroll Down!</a>
@@ -155,7 +167,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1>Filter annotation from api</h1>
-                        <p>Select a class from the menu below to see some live information from the hypothesis api</p>
+                        <p class="lead">Select a class from the menu below to see some live information from the hypothesis api</p>
                     <form id="form">
                         <select name="enter"  id="input">
                             <option value="ETT">ETT</option>
@@ -179,13 +191,41 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1>Vis Graph of annotation from api</h1>
-                        <p>Select a class from the menu below to see some live information from the hypothesis api</p>
+                        <p class="lead">The annotations available through the api can be used to produce graphs, timelines, etc.</p>
                         <div id="mynetwork"></div>
-                    
+                        <pre id="whereToPrint"></pre>
                     <script type="application/javascript" xml:space="preserve" src="makegraph.js"></script>
                 </div>
             </div>
             </div>
+            </div>
+        </section>
+        
+        <section id="guidelines" class="guidelines-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Guidelines</h1>
+                      <div class="container">
+                          <p class="lead">
+                              You can annotate any online resource you want.
+                          </p>
+                          <p class="lead">To set you up and start annotate.</p>
+                          <ol>
+                              <li>Install <a href="https://hypothes.is/">hypothes.is</a></li>
+                              <li>Create an account on hypothes.is</li>
+                              <li>login and get familiar with hypothes.is sidebar</li>
+                              </ol>
+                          
+                          <p class="lead">While annotating, follow these simple guidelines</p>
+                          <ul>
+                              <li>Make sue you always mark your project annotation with the ETT tag. There is however no guarantee that somebody will not use this tag for something else, but the information can be otherways filtered to get the correct data.</li>
+                              <li>To annotate a text string, image, page with a class add a tag with the class name. This will mean that this selection is part of this class. <a href="https://hyp.is/2VhPnvLNEeaQ5MO8vVcctA/www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133">EXAMPLE</a></li>
+                              <li>To annotate a text string, image, page with a property add a tag with the property name and enter as the text of the annotation the value to be related. This will mean that this selection is related by this property to whatever is in the text of the annotation. <a href="https://hyp.is/6JAijvLSEeawGMdKqCsYFQ/www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133">EXAMPLE</a></li>
+                          </ul>
+                      </div>
+                    </div>
+                </div>
             </div>
         </section>
         
@@ -196,7 +236,7 @@
                     <div class="col-lg-12">
                         <h1>Ontology</h1>
                         <h2>Main Terms</h2>
-                        <p>MEMENTO: The ontology is a reflection of the real world, and if no categorization exists in the real world, then the ontology should reflect that.</p>
+                        <p class="lead">MEMENTO: The ontology is a reflection of the real world, and if no categorization exists in the real world, then the ontology should reflect that.</p>
                         <p><a href="http://www.essepuntato.it/lode/https://raw.githubusercontent.com/PietroLiuzzo/ETT/master/ETT.owl">LODE documentation</a></p>
                         <img width="100%" src="ontograph.png"></img>
                         <a class="btn btn-default page-scroll" href="#intro">Click Me to return to the top!</a>
@@ -204,6 +244,7 @@
                 </div>
             </div>
         </section>
+        
         
         <!-- jQuery -->
         <script src="template/js/jquery.js"></script>
