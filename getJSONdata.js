@@ -1,7 +1,10 @@
 // for all tagged ETT  https://hypothes.is/api/search?tag=ETT
 // example below for one annotation
 $(document).on('ready', function () {
-/*var selectValues = {}
+/*
+ this should decide the options based on existing tags in annotations
+
+var selectValues = {}
 $.each(selectValues, function(key, value) {   
      $('#input')
          .append($("<option></option>")
@@ -22,7 +25,7 @@ console.log(data);
        var text = "";
        if('selector' in ann.target){text += ann.target["0"].selector[3].exact} else {text += ann.target.source};
        
-      items.push( "<div id='" + ann.id + "' class='card'><div class='col-md-3'>" + ann.text +"</div><div class='col-md-3'>"  + ann.document.title +"</div><div class='col-md-3'>"  + ann.uri +"</div><div class='col-md-3'>" + ann.links.html + "</div></div>" );
+      items.push( "<div id='" + ann.id + "' class='card'><div class='col-md-3'><p>" + ann.text +"</p></div><div class='col-md-3'><p>"  + ann.document.title +"</p></div><div class='col-md-3'><p>"  + ann.uri +"</p></div><div class='col-md-3'><p>" + ann.links.html + "</p></div></div>" );
 };
   
   $( "<div/>", {
