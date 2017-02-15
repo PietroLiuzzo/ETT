@@ -1,0 +1,53 @@
+{
+    "updated": "2017-02-14T16:30:33.965764+00:00",
+    "group": "__world__",
+    "target": [{
+        "source": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+        "selector": [
+            {
+                "conformsTo": "https://tools.ietf.org/html/rfc3236",
+                "type": "FragmentSelector",
+                "value": "text_main"
+            },
+            {
+                "endContainer": "/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/p[1]/a[1]",
+                "startContainer": "/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/p[1]/a[1]",
+                "type": "RangeSelector",
+                "startOffset": 0,
+                "endOffset": 5
+            },
+            {
+                "type": "TextPositionSelector",
+                "end": 7068,
+                "start": 7063
+            },
+            {
+                "exact": "μῆνιν",
+                "prefix": "es, and frequency statistics\n\t\t\n",
+                "type": "TextQuoteSelector",
+                "suffix": " ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος\nοὐλ"
+            }
+        ]
+    }],
+    "links": {
+        "json": "https://hypothes.is/api/annotations/6JAijvLSEeawGMdKqCsYFQ",
+        "html": "https://hypothes.is/a/6JAijvLSEeawGMdKqCsYFQ",
+        "incontext": "https://hyp.is/6JAijvLSEeawGMdKqCsYFQ/www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"
+    },
+    "tags": [
+        "ETT",
+        "ETT:isRelatedTo"
+    ],
+    "text": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0016.tlg001.perseus-grc1:7.229",
+    "created": "2017-02-14T16:30:33.965764+00:00",
+    "uri": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+    "user": "acct:PietroLiuzzo@hypothes.is",
+    "document": {"title": ["Homer, \nIliad,\nBook 1, line 1"]},
+    "id": "6JAijvLSEeawGMdKqCsYFQ",
+    "permissions": {
+        "read": ["group:__world__"],
+        "admin": ["acct:PietroLiuzzo@hypothes.is"],
+        "update": ["acct:PietroLiuzzo@hypothes.is"],
+        "delete": ["acct:PietroLiuzzo@hypothes.is"]
+    }
+}

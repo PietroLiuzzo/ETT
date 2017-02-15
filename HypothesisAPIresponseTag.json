@@ -1,0 +1,530 @@
+{
+    "rows": [
+        {
+            "updated": "2017-02-14T16:30:33.965764+00:00",
+            "group": "__world__",
+            "target": [{
+                "source": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+                "selector": [
+                    {
+                        "conformsTo": "https://tools.ietf.org/html/rfc3236",
+                        "type": "FragmentSelector",
+                        "value": "text_main"
+                    },
+                    {
+                        "endContainer": "/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/p[1]/a[1]",
+                        "startContainer": "/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/p[1]/a[1]",
+                        "type": "RangeSelector",
+                        "startOffset": 0,
+                        "endOffset": 5
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "end": 7068,
+                        "start": 7063
+                    },
+                    {
+                        "exact": "μῆνιν",
+                        "prefix": "es, and frequency statistics\n\t\t\n",
+                        "type": "TextQuoteSelector",
+                        "suffix": " ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος\nοὐλ"
+                    }
+                ]
+            }],
+            "links": {
+                "json": "https://hypothes.is/api/annotations/6JAijvLSEeawGMdKqCsYFQ",
+                "html": "https://hypothes.is/a/6JAijvLSEeawGMdKqCsYFQ",
+                "incontext": "https://hyp.is/6JAijvLSEeawGMdKqCsYFQ/www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"
+            },
+            "tags": [
+                "ETT",
+                "ETT:isRelatedTo"
+            ],
+            "text": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0016.tlg001.perseus-grc1:7.229",
+            "created": "2017-02-14T16:30:33.965764+00:00",
+            "uri": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+            "user": "acct:PietroLiuzzo@hypothes.is",
+            "document": {"title": ["Homer, \nIliad,\nBook 1, line 1"]},
+            "id": "6JAijvLSEeawGMdKqCsYFQ",
+            "permissions": {
+                "read": ["group:__world__"],
+                "admin": ["acct:PietroLiuzzo@hypothes.is"],
+                "update": ["acct:PietroLiuzzo@hypothes.is"],
+                "delete": ["acct:PietroLiuzzo@hypothes.is"]
+            }
+        },
+        {
+            "updated": "2017-02-14T16:24:13.962945+00:00",
+            "group": "__world__",
+            "target": [{
+                "source": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+                "selector": [
+                    {
+                        "conformsTo": "https://tools.ietf.org/html/rfc3236",
+                        "type": "FragmentSelector",
+                        "value": "text_main"
+                    },
+                    {
+                        "endContainer": "/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/p[1]/a[17]",
+                        "startContainer": "/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/p[1]/a[1]",
+                        "type": "RangeSelector",
+                        "startOffset": 0,
+                        "endOffset": 8
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "end": 7175,
+                        "start": 7063
+                    },
+                    {
+                        "exact": "μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος\nοὐλομένην, ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε,\nπολλὰς δ᾽ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν",
+                        "prefix": "es, and frequency statistics\n\t\t\n",
+                        "type": "TextQuoteSelector",
+                        "suffix": "\nἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κ"
+                    }
+                ]
+            }],
+            "links": {
+                "json": "https://hypothes.is/api/annotations/BhBYjvLSEea7XZ8Z8d0hBQ",
+                "html": "https://hypothes.is/a/BhBYjvLSEea7XZ8Z8d0hBQ",
+                "incontext": "https://hyp.is/BhBYjvLSEea7XZ8Z8d0hBQ/www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"
+            },
+            "tags": [
+                "ETT",
+                "ETT:hasPlace"
+            ],
+            "text": "https://pleiades.stoa.org/places/550595",
+            "created": "2017-02-14T16:24:13.962945+00:00",
+            "uri": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+            "user": "acct:PietroLiuzzo@hypothes.is",
+            "document": {"title": ["Homer, \nIliad,\nBook 1, line 1"]},
+            "id": "BhBYjvLSEea7XZ8Z8d0hBQ",
+            "permissions": {
+                "read": ["group:__world__"],
+                "admin": ["acct:PietroLiuzzo@hypothes.is"],
+                "update": ["acct:PietroLiuzzo@hypothes.is"],
+                "delete": ["acct:PietroLiuzzo@hypothes.is"]
+            }
+        },
+        {
+            "updated": "2017-02-14T16:22:17.425199+00:00",
+            "group": "__world__",
+            "target": [{
+                "source": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+                "selector": [
+                    {
+                        "conformsTo": "https://tools.ietf.org/html/rfc3236",
+                        "type": "FragmentSelector",
+                        "value": "text_main"
+                    },
+                    {
+                        "endContainer": "/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/p[1]/a[1]",
+                        "startContainer": "/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/p[1]/a[1]",
+                        "type": "RangeSelector",
+                        "startOffset": 0,
+                        "endOffset": 5
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "end": 7068,
+                        "start": 7063
+                    },
+                    {
+                        "exact": "μῆνιν",
+                        "prefix": "es, and frequency statistics\n\t\t\n",
+                        "type": "TextQuoteSelector",
+                        "suffix": " ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος\nοὐλ"
+                    }
+                ]
+            }],
+            "links": {
+                "json": "https://hypothes.is/api/annotations/hf7RzPLPEeaS0zuURKwegg",
+                "html": "https://hypothes.is/a/hf7RzPLPEeaS0zuURKwegg",
+                "incontext": "https://hyp.is/hf7RzPLPEeaS0zuURKwegg/www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"
+            },
+            "tags": [
+                "ETT",
+                "ETT:Strong"
+            ],
+            "text": "ETT:hasIntensity",
+            "created": "2017-02-14T16:06:20.099056+00:00",
+            "uri": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+            "user": "acct:PietroLiuzzo@hypothes.is",
+            "document": {"title": ["Homer, \nIliad,\nBook 1, line 1"]},
+            "id": "hf7RzPLPEeaS0zuURKwegg",
+            "permissions": {
+                "read": ["group:__world__"],
+                "admin": ["acct:PietroLiuzzo@hypothes.is"],
+                "update": ["acct:PietroLiuzzo@hypothes.is"],
+                "delete": ["acct:PietroLiuzzo@hypothes.is"]
+            }
+        },
+        {
+            "updated": "2017-02-14T16:20:24.657600+00:00",
+            "group": "__world__",
+            "target": [{"source": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"}],
+            "links": {
+                "json": "https://hypothes.is/api/annotations/_STyTPLNEeaXJsfj3nD68g",
+                "html": "https://hypothes.is/a/_STyTPLNEeaXJsfj3nD68g",
+                "incontext": "https://hyp.is/_STyTPLNEeaXJsfj3nD68g/www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"
+            },
+            "tags": [
+                "ETT:WrittenSource",
+                "ETT:Epic",
+                "ETT"
+            ],
+            "text": "",
+            "created": "2017-02-14T15:55:21.011856+00:00",
+            "uri": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+            "user": "acct:PietroLiuzzo@hypothes.is",
+            "document": {"title": ["Homer, \nIliad,\nBook 1, line 1"]},
+            "id": "_STyTPLNEeaXJsfj3nD68g",
+            "permissions": {
+                "read": ["group:__world__"],
+                "admin": ["acct:PietroLiuzzo@hypothes.is"],
+                "update": ["acct:PietroLiuzzo@hypothes.is"],
+                "delete": ["acct:PietroLiuzzo@hypothes.is"]
+            }
+        },
+        {
+            "updated": "2017-02-14T16:20:16.664018+00:00",
+            "group": "__world__",
+            "target": [{
+                "source": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+                "selector": [
+                    {
+                        "conformsTo": "https://tools.ietf.org/html/rfc3236",
+                        "type": "FragmentSelector",
+                        "value": "text_main"
+                    },
+                    {
+                        "endContainer": "/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/p[1]",
+                        "startContainer": "/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/p[1]/a[7]",
+                        "type": "RangeSelector",
+                        "startOffset": 0,
+                        "endOffset": 73
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "end": 7136,
+                        "start": 7108
+                    },
+                    {
+                        "exact": "ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε,",
+                        "prefix": "εὰ Πηληϊάδεω Ἀχιλῆος\nοὐλομένην, ",
+                        "type": "TextQuoteSelector",
+                        "suffix": "\nπολλὰς δ᾽ ἰφθίμους ψυχὰς Ἄϊδι π"
+                    }
+                ]
+            }],
+            "links": {
+                "json": "https://hypothes.is/api/annotations/7gYDJvLPEea5h8uO694gfw",
+                "html": "https://hypothes.is/a/7gYDJvLPEea5h8uO694gfw",
+                "incontext": "https://hyp.is/7gYDJvLPEea5h8uO694gfw/www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"
+            },
+            "tags": [
+                "ETT:ManifestSymptoms",
+                "ETT"
+            ],
+            "text": "",
+            "created": "2017-02-14T16:09:14.648827+00:00",
+            "uri": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+            "user": "acct:PietroLiuzzo@hypothes.is",
+            "document": {"title": ["Homer, \nIliad,\nBook 1, line 1"]},
+            "id": "7gYDJvLPEea5h8uO694gfw",
+            "permissions": {
+                "read": ["group:__world__"],
+                "admin": ["acct:PietroLiuzzo@hypothes.is"],
+                "update": ["acct:PietroLiuzzo@hypothes.is"],
+                "delete": ["acct:PietroLiuzzo@hypothes.is"]
+            }
+        },
+        {
+            "updated": "2017-02-14T16:20:10.096739+00:00",
+            "group": "__world__",
+            "target": [{
+                "source": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+                "selector": [
+                    {
+                        "conformsTo": "https://tools.ietf.org/html/rfc3236",
+                        "type": "FragmentSelector",
+                        "value": "text_main"
+                    },
+                    {
+                        "endContainer": "/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/p[1]/a[5]",
+                        "startContainer": "/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/p[1]/a[2]",
+                        "type": "RangeSelector",
+                        "startOffset": 0,
+                        "endOffset": 7
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "end": 7096,
+                        "start": 7069
+                    },
+                    {
+                        "exact": "ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος",
+                        "prefix": "d frequency statistics\n\t\t\nμῆνιν ",
+                        "type": "TextQuoteSelector",
+                        "suffix": "\nοὐλομένην, ἣ μυρί᾽ Ἀχαιοῖς ἄλγε"
+                    }
+                ]
+            }],
+            "links": {
+                "json": "https://hypothes.is/api/annotations/K3Zw4vLQEeaS1_flFraNEQ",
+                "html": "https://hypothes.is/a/K3Zw4vLQEeaS1_flFraNEQ",
+                "incontext": "https://hyp.is/K3Zw4vLQEeaS1_flFraNEQ/www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"
+            },
+            "tags": [
+                "ETT:Divine",
+                "ETT"
+            ],
+            "text": "",
+            "created": "2017-02-14T16:10:57.727856+00:00",
+            "uri": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+            "user": "acct:PietroLiuzzo@hypothes.is",
+            "document": {"title": ["Homer, \nIliad,\nBook 1, line 1"]},
+            "id": "K3Zw4vLQEeaS1_flFraNEQ",
+            "permissions": {
+                "read": ["group:__world__"],
+                "admin": ["acct:PietroLiuzzo@hypothes.is"],
+                "update": ["acct:PietroLiuzzo@hypothes.is"],
+                "delete": ["acct:PietroLiuzzo@hypothes.is"]
+            }
+        },
+        {
+            "updated": "2017-02-14T16:20:02.622537+00:00",
+            "group": "__world__",
+            "target": [{
+                "source": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+                "selector": [
+                    {
+                        "conformsTo": "https://tools.ietf.org/html/rfc3236",
+                        "type": "FragmentSelector",
+                        "value": "text_main"
+                    },
+                    {
+                        "endContainer": "/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/p[1]",
+                        "startContainer": "/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/p[1]/a[1]",
+                        "type": "RangeSelector",
+                        "startOffset": 0,
+                        "endOffset": 6
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "end": 7069,
+                        "start": 7063
+                    },
+                    {
+                        "exact": "μῆνιν ",
+                        "prefix": "es, and frequency statistics\n\t\t\n",
+                        "type": "TextQuoteSelector",
+                        "suffix": "ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος\nοὐλο"
+                    }
+                ]
+            }],
+            "links": {
+                "json": "https://hypothes.is/api/annotations/fX780PLOEeaQ5vvyLQ7gKg",
+                "html": "https://hypothes.is/a/fX780PLOEeaQ5vvyLQ7gKg",
+                "incontext": "https://hyp.is/fX780PLOEeaQ5vvyLQ7gKg/www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"
+            },
+            "tags": [
+                "ETT:Ira",
+                "ETT"
+            ],
+            "text": "ETT:isAttestationOf",
+            "created": "2017-02-14T15:58:56.342973+00:00",
+            "uri": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+            "user": "acct:PietroLiuzzo@hypothes.is",
+            "document": {"title": ["Homer, \nIliad,\nBook 1, line 1"]},
+            "id": "fX780PLOEeaQ5vvyLQ7gKg",
+            "permissions": {
+                "read": ["group:__world__"],
+                "admin": ["acct:PietroLiuzzo@hypothes.is"],
+                "update": ["acct:PietroLiuzzo@hypothes.is"],
+                "delete": ["acct:PietroLiuzzo@hypothes.is"]
+            }
+        },
+        {
+            "updated": "2017-02-14T16:19:55.209375+00:00",
+            "group": "__world__",
+            "target": [{
+                "source": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+                "selector": [
+                    {
+                        "conformsTo": "https://tools.ietf.org/html/rfc3236",
+                        "type": "FragmentSelector",
+                        "value": "text_main"
+                    },
+                    {
+                        "endContainer": "/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/p[1]",
+                        "startContainer": "/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/p[1]/a[1]",
+                        "type": "RangeSelector",
+                        "startOffset": 0,
+                        "endOffset": 6
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "end": 7069,
+                        "start": 7063
+                    },
+                    {
+                        "exact": "μῆνιν ",
+                        "prefix": "es, and frequency statistics\n\t\t\n",
+                        "type": "TextQuoteSelector",
+                        "suffix": "ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος\nοὐλο"
+                    }
+                ]
+            }],
+            "links": {
+                "json": "https://hypothes.is/api/annotations/2VhPnvLNEeaQ5MO8vVcctA",
+                "html": "https://hypothes.is/a/2VhPnvLNEeaQ5MO8vVcctA",
+                "incontext": "https://hyp.is/2VhPnvLNEeaQ5MO8vVcctA/www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133"
+            },
+            "tags": [
+                "ETT:EmotionName",
+                "ETT"
+            ],
+            "text": "",
+            "created": "2017-02-14T15:54:20.950218+00:00",
+            "uri": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+            "user": "acct:PietroLiuzzo@hypothes.is",
+            "document": {"title": ["Homer, \nIliad,\nBook 1, line 1"]},
+            "id": "2VhPnvLNEeaQ5MO8vVcctA",
+            "permissions": {
+                "read": ["group:__world__"],
+                "admin": ["acct:PietroLiuzzo@hypothes.is"],
+                "update": ["acct:PietroLiuzzo@hypothes.is"],
+                "delete": ["acct:PietroLiuzzo@hypothes.is"]
+            }
+        },
+        {
+            "updated": "2017-02-05T22:01:11.299278+00:00",
+            "group": "__world__",
+            "target": [{"source": "http://www.perseus.tufts.edu/hopper/image?img=Perseus:image:1992.06.1611"}],
+            "links": {
+                "json": "https://hypothes.is/api/annotations/ms4BoOvuEeaKU4vMeJlvhQ",
+                "html": "https://hypothes.is/a/ms4BoOvuEeaKU4vMeJlvhQ",
+                "incontext": "https://hyp.is/ms4BoOvuEeaKU4vMeJlvhQ/www.perseus.tufts.edu/hopper/image?img=Perseus:image:1992.06.1611"
+            },
+            "tags": ["ETT"],
+            "text": "",
+            "created": "2017-02-05T22:01:11.299278+00:00",
+            "uri": "http://www.perseus.tufts.edu/hopper/image?img=Perseus:image:1992.06.1611",
+            "user": "acct:PietroLiuzzo@hypothes.is",
+            "document": {"title": ["Perseus:image:1992.06.1611"]},
+            "id": "ms4BoOvuEeaKU4vMeJlvhQ",
+            "permissions": {
+                "read": ["group:__world__"],
+                "admin": ["acct:PietroLiuzzo@hypothes.is"],
+                "update": ["acct:PietroLiuzzo@hypothes.is"],
+                "delete": ["acct:PietroLiuzzo@hypothes.is"]
+            }
+        },
+        {
+            "updated": "2017-02-05T21:41:02.675544+00:00",
+            "group": "__world__",
+            "target": [{
+                "source": "http://pietroliuzzo.github.io/Aristodemo/",
+                "selector": [
+                    {
+                        "conformsTo": "https://tools.ietf.org/html/rfc3236",
+                        "type": "FragmentSelector",
+                        "value": "edition1"
+                    },
+                    {
+                        "endContainer": "/div[3]/div[3]/div[1]/div[1]/div[1]/p[7]",
+                        "startContainer": "/div[3]/div[3]/div[1]/div[1]/div[1]/p[7]",
+                        "type": "RangeSelector",
+                        "startOffset": 404,
+                        "endOffset": 422
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "end": 6895,
+                        "start": 6877
+                    },
+                    {
+                        "exact": " φοβηθεὶς ἔφευγεν.",
+                        "prefix": "οἱ Ἕλληνες λύειν τὸ ζεῦγμα· ὁ δὲ",
+                        "type": "TextQuoteSelector",
+                        "suffix": " \n                     \n        "
+                    }
+                ]
+            }],
+            "links": {
+                "json": "https://hypothes.is/api/annotations/uknPTOvoEearweMliY-Wyw",
+                "html": "https://hypothes.is/a/uknPTOvoEearweMliY-Wyw",
+                "incontext": "https://hyp.is/uknPTOvoEearweMliY-Wyw/pietroliuzzo.github.io/Aristodemo/"
+            },
+            "tags": [
+                "Fear",
+                "ETT",
+                "ETT:fear"
+            ],
+            "text": "",
+            "created": "2017-02-05T21:19:07.144330+00:00",
+            "uri": "http://pietroliuzzo.github.io/Aristodemo/",
+            "user": "acct:PietroLiuzzo@hypothes.is",
+            "document": {"title": ["FGrHist 104 [Aristodemus]"]},
+            "id": "uknPTOvoEearweMliY-Wyw",
+            "permissions": {
+                "read": ["group:__world__"],
+                "admin": ["acct:PietroLiuzzo@hypothes.is"],
+                "update": ["acct:PietroLiuzzo@hypothes.is"],
+                "delete": ["acct:PietroLiuzzo@hypothes.is"]
+            }
+        },
+        {
+            "updated": "2017-02-05T21:31:34.660898+00:00",
+            "group": "__world__",
+            "target": [{
+                "source": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0125:book=7:chapter=235",
+                "selector": [
+                    {
+                        "conformsTo": "https://tools.ietf.org/html/rfc3236",
+                        "type": "FragmentSelector",
+                        "value": "text_main"
+                    },
+                    {
+                        "endContainer": "/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/p[1]",
+                        "startContainer": "/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/p[1]",
+                        "type": "RangeSelector",
+                        "startOffset": 490,
+                        "endOffset": 534
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "end": 60058,
+                        "start": 60014
+                    },
+                    {
+                        "exact": " ἀλλὰ πάντα ὁμοίως φοβεόμενος ἀνδρῶν στόλον.",
+                        "prefix": "ι, οὔτι τὸν σὸν στόλον προειδώς,",
+                        "type": "TextQuoteSelector",
+                        "suffix": "\n\n      [3]\n       \nἐκ ταύτης τῆ"
+                    }
+                ]
+            }],
+            "links": {
+                "json": "https://hypothes.is/api/annotations/DBycIuvqEeaEdhOsJ3E4ng",
+                "html": "https://hypothes.is/a/DBycIuvqEeaEdhOsJ3E4ng",
+                "incontext": "https://hyp.is/DBycIuvqEeaEdhOsJ3E4ng/www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0125:book=7:chapter=235"
+            },
+            "tags": ["ETT"],
+            "text": "",
+            "created": "2017-02-05T21:28:33.911637+00:00",
+            "uri": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0125:book=7:chapter=235",
+            "user": "acct:PietroLiuzzo@hypothes.is",
+            "document": {"title": ["Herodotus, \nThe Histories,\nbook 7, chapter 235"]},
+            "id": "DBycIuvqEeaEdhOsJ3E4ng",
+            "permissions": {
+                "read": ["group:__world__"],
+                "admin": ["acct:PietroLiuzzo@hypothes.is"],
+                "update": ["acct:PietroLiuzzo@hypothes.is"],
+                "delete": ["acct:PietroLiuzzo@hypothes.is"]
+            }
+        }
+    ],
+    "total": 11
+}
