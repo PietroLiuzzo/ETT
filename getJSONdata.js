@@ -23,9 +23,9 @@ console.log(data);
        for (var i = 0; i < data.rows.length; i++) {
        var ann = data.rows[i]
        var text = "";
-       if('selector' in ann.target){text += ann.target["0"].selector[3].exact} else {text += ann.target.source};
+       if('selector' in ann.target["0"]){text += ann.target["0"].selector[3].exact} else {text += ann.target.source};
        
-      items.push( "<div id='" + ann.id + "' class='card'><div class='col-md-3'><p>" + ann.text +"</p></div><div class='col-md-3'><p>"  + ann.document.title +"</p></div><div class='col-md-3'><p>"  + ann.uri +"</p></div><div class='col-md-3'><p>" + ann.links.html + "</p></div></div>" );
+      items.push( "<div id='" + ann.id + "' class='card'><div class='col-md-3'><p>" + text +"</p></div><div class='col-md-3'><p>"  + ann.document.title +"</p></div><div class='col-md-3'><p>"  + ann.text +"</p></div><div class='col-md-3'><p>" + ann.uri + "</p></div></div>" );
 };
   
   $( "<div/>", {
